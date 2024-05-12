@@ -9,8 +9,6 @@ function checkArrayOrder(arr) {
 
     }
 
-  
-
     // Check for descending order
 
     if (arr.every((element, index, array) => index === 0 || element <= array[index - 1])) {
@@ -19,17 +17,9 @@ function checkArrayOrder(arr) {
 
     }
 
-  
-
-   
-
     return 0;
 
   }
-
-  
-
-  
 
   const ascendingArray = [1, 2, 3, 4, 5];
 
@@ -38,8 +28,7 @@ function checkArrayOrder(arr) {
   const unsortedArray = [3, 1, 4, 2, 5];
 
   
-
-  console.log(checkArrayOrder(ascendingArray)); // Output: 1
+console.log(checkArrayOrder(ascendingArray)); // Output: 1
 
   console.log(checkArrayOrder(descendingArray)); // Output: -1
 
